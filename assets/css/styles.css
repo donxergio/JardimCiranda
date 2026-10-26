@@ -293,8 +293,10 @@ ul[role='list'], ol[role='list'] { list-style: none; margin: 0; padding: 0; }
 
 .brand { display: inline-flex; align-items: center; gap: 0.7rem; text-decoration: none; color: var(--text); }
 .brand:hover { color: var(--text); }
-.brand svg { width: 44px; height: 44px; transition: transform 1.2s var(--ease); }
-.brand:hover svg { transform: rotate(40deg); }
+.brand__logo { width: auto; height: min(58px, calc(var(--header-h) - 14px)); flex-shrink: 0; transition: transform 0.9s var(--ease); }
+.brand:hover .brand__logo { transform: rotate(-8deg) scale(1.04); }
+@media (max-width: 480px) { .brand__logo { height: 46px; } }
+@media (prefers-reduced-motion: reduce) { .brand:hover .brand__logo { transform: none; } }
 .brand__name { font-family: var(--font-serif); font-size: 1.32rem; font-weight: 600; line-height: 1; }
 .brand__tag { display: block; font-family: var(--font-sans); font-size: 0.7rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-subtle); margin-top: 4px; }
 
@@ -683,6 +685,7 @@ ul[role='list'], ol[role='list'] { list-style: none; margin: 0; padding: 0; }
 .site-footer a:hover { color: var(--c-cream-50); }
 .footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 2rem; }
 .site-footer .brand, .site-footer .brand:hover { color: var(--c-cream-50); }
+.site-footer .brand__logo { height: 72px; padding: 6px; border-radius: 22px; background: var(--c-cream-50); box-shadow: 0 8px 22px -14px rgba(0, 0, 0, 0.5); }
 .site-footer .brand__tag { color: #d9c9b8; }
 .site-footer h2 { font-family: var(--font-sans); font-size: var(--fs-xs); letter-spacing: 0.14em; text-transform: uppercase; color: #e9d3a0; margin-bottom: 1rem; font-weight: 800; }
 .site-footer p, .site-footer li { color: #e2d6c8; font-size: var(--fs-sm); }
