@@ -1,0 +1,16 @@
+{
+  "name": "Jardim Ciranda — Educação Infantil Waldorf",
+  "short_name": "Jardim Ciranda",
+  "description": "Jardim de infância inspirado na Pedagogia Waldorf em Joinville/SC.",
+  "lang": "pt-BR",
+  "start_url": "./",
+  "scope": "./",
+  "display": "browser",
+  "background_color": "#faf7f2",
+  "theme_color": "#faf7f2",
+  "icons": [
+    { "src": "assets/img/favicon.svg", "type": "image/svg+xml", "sizes": "any" },
+    { "src": "assets/img/icon-192.png", "type": "image/png", "sizes": "192x192" },
+    { "src": "assets/img/icon-512.png", "type": "image/png", "sizes": "512x512" }
+  ]
+}
