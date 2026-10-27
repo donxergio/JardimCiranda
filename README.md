@@ -103,25 +103,20 @@ Content-Security-Policy: <copie a do index.html> ; frame-ancestors 'none'
 
 ## 7. Imagens e privacidade infantil (ECA / LGPD)
 **Regra: zero rostos identificáveis de crianças.** Imagens do site antigo reaproveitadas (todas sem rosto visível):
-`jardim-crianca-brincando-terra` (criança de costas), `jardim-crianca-explorando-grama` (rosto voltado para baixo),
-`jardim-familias-plantando` (adultos em mutirão). As demais foram geradas por IA e **recortadas** quando havia parte de rosto.
+`jardim-crianca-brincando-terra` (criança de costas), `jardim-crianca-explorando-grama` (rosto voltado para baixo). As demais foram geradas por IA e **recortadas** quando havia parte de rosto.
 
-**Fotos reais da escola** (galeria `#espaco`; crianças só de costas): `caminhada-entre-arvores`, `caminho-do-jardim`,
-`desenho-no-muro`, `pintura-com-terra`, `parque-de-madeira`, `canteiro-de-folhagens` (adulto ao fundo recortado),
-`criancas-varrendo-deck` (recortada do peito para baixo, sem cabeças; só 640 px — origem pequena) e
-`festa-das-tochas` (recorte só das tochas e do céu, sem pessoas). Substituíram a imagem de IA
-`caminho-no-jardim` (removida) e saíram da galeria `horta-colheita`, `maos-amassando-pao` e `maos-tecendo-la`
-(continuam no bloco "Um dia no Jardim"). `tanque-de-areia` foi **removida** (lona/saco de obra visível).
-Descartadas do lote de out/2026: fotos do tanque de areia com crianças (rosto de perfil visível, crianças sem
-roupa, lona de obra e baixa resolução).
+**Galeria atual (#espaco):** utiliza 7 imagens geradas por IA sem legendas (`<figcaption>`), preenchendo a grade de 4 colunas (e 2 em mobile) perfeitamente:
+1. `caminho-no-jardim` (tall wide)
+2. `brinquedos-naturais`
+3. `horta-colheita` (tall)
+4. `mesa-da-epoca`
+5. `maos-amassando-pao` (wide)
+6. `pintura-aquarela`
+7. `maos-tecendo-la`
 
-Tratamento aplicado às fotos reais (para combinar com a paleta do site): recorte, dessaturação ~20 % (mais forte em
-azuis e vermelhos muito vivos — ex.: lona azul, camisetas), aquecimento leve (pêssego/ocre), pretos levantados e
-brancos cremosos (look matte), contraste −8 % e nitidez suave; exportação WebP 640w + 1280w (q 72/66).
+*Nota:* O lote de fotos reais da escola tratadas (`caminhada-entre-arvores`, `caminho-do-jardim`, `desenho-no-muro`, `pintura-com-terra`, `parque-de-madeira`, `canteiro-de-folhagens`, `criancas-varrendo-deck`, `festa-das-tochas`) permanece salvo em `assets/img/` pronto para reativação quando aprovado pela equipe pedagógica.
 
-- [ ] Confirmar autorização de uso de imagem da **professora** (`caminhada-entre-arvores`) e dos responsáveis pelas crianças, mesmo de costas.
-
-> Recomenda-se substituir progressivamente as imagens geradas por fotos reais da escola seguindo as mesmas regras.
+- [ ] Confirmar autorização de uso de imagem da **professora** (`caminhada-entre-arvores`) e dos responsáveis pelas crianças, mesmo de costas, antes de recolocar as fotos reais.
 
 ### Prompts para gerar/refazer imagens (estilo unificado)
 Sufixo comum: *"soft natural light, warm pastel earthy palette (peach, ochre, sage, lavender, cream), shallow depth of field, film photography look, calm and cozy, Waldorf aesthetic. Only hands/back visible — NO faces, nobody facing the camera."*
