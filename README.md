@@ -107,9 +107,13 @@ Content-Security-Policy: <copie a do index.html> ; frame-ancestors 'none'
 `jardim-familias-plantando` (adultos em mutirão). As demais foram geradas por IA e **recortadas** quando havia parte de rosto.
 
 **Fotos reais da escola** (galeria `#espaco`; crianças só de costas): `caminhada-entre-arvores`, `caminho-do-jardim`,
-`desenho-no-muro`, `pintura-com-terra`, `tanque-de-areia`, `parque-de-madeira`. Substituíram a imagem de IA
+`desenho-no-muro`, `pintura-com-terra`, `parque-de-madeira`, `canteiro-de-folhagens` (adulto ao fundo recortado),
+`criancas-varrendo-deck` (recortada do peito para baixo, sem cabeças; só 640 px — origem pequena) e
+`festa-das-tochas` (recorte só das tochas e do céu, sem pessoas). Substituíram a imagem de IA
 `caminho-no-jardim` (removida) e saíram da galeria `horta-colheita`, `maos-amassando-pao` e `maos-tecendo-la`
-(continuam no bloco "Um dia no Jardim").
+(continuam no bloco "Um dia no Jardim"). `tanque-de-areia` foi **removida** (lona/saco de obra visível).
+Descartadas do lote de out/2026: fotos do tanque de areia com crianças (rosto de perfil visível, crianças sem
+roupa, lona de obra e baixa resolução).
 
 Tratamento aplicado às fotos reais (para combinar com a paleta do site): recorte, dessaturação ~20 % (mais forte em
 azuis e vermelhos muito vivos — ex.: lona azul, camisetas), aquecimento leve (pêssego/ocre), pretos levantados e
@@ -132,6 +136,6 @@ Sufixo comum: *"soft natural light, warm pastel earthy palette (peach, ochre, sa
 | `mesa-da-epoca` | Waldorf seasonal nature table: silk cloths in peach/ochre/sage, pine cones, leaves, stones, beeswax candle, felt gnomes, faceless rag doll. No people. |
 | `brinquedos-naturais` | Untreated wooden toys: branch blocks, wooden rainbow, wooden animals, play silks, basket of wool balls, Waldorf doll on a small chair. No people. |
 | ~~`caminho-no-jardim`~~ | *(substituída por foto real)* Three small children seen from behind, hand in hand, walking barefoot on a grass path toward a mango tree at golden sunset, backlit silhouettes. |
-| ~~*(sugestão)* `arenero`~~ | *(já há foto real: `tanque-de-areia`)* |
+| *(sugestão)* `tanque-de-areia` | *(foto real removida — refazer sem lona/obra)* Wooden sandbox with sand toys and a small wooden playhouse in a green garden, only small hands and backs visible. |
 | *(sugestão)* `roda-ritmica` | Top-down view of small bare feet and joined hands forming a circle on green grass, flower petals, no heads in frame. |
 | *(sugestão)* `cozinha` | Rustic school kitchen with clay pots, seasonal fruits in wicker baskets, wooden spoons, morning light. No people. |
